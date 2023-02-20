@@ -9,6 +9,7 @@ setup(
     description='MAPLab sound synthesizer',
     author='Loonan Chauvette',
     author_email='loonan.chauvette@gmail.com',
+    url='https://github.com/LoonanChauvette/mapsynth',
     long_description=long_description,
     long_description_content_type='text/markdown',
     license='MIT License',
@@ -19,7 +20,7 @@ setup(
         'matplotlib',
     ],
     extras_require={
-        "dev": ["pytest>=7"]
+        "dev": ["pytest>=7", "check-manifest>=0.49"]
     },
     classifiers=["License :: OSI Approved :: MIT License",
                  "Operating System :: OS Independent",
