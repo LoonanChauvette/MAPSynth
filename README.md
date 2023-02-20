@@ -9,8 +9,10 @@ pip install mapsynth
 ```
 
 ## Usage
+
 ```python
-import mapsynth as ms
+
+from src import mapsynth as ms
 
 # Do the bare minimum
 ms.say_hello()

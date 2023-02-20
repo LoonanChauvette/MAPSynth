@@ -1,5 +1,5 @@
-import pytest
-import mapsynth as ms
+from src import mapsynth as ms
+
 
 def test_hello_no_params():
     assert ms.say_hello() == "Hello, World!"
